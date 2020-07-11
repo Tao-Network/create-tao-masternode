@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "create-tomochain-masternode"
+name = "create-tao-masternode"
 version = "1.2.5"
-description = "Set up a TomoChain masternode by running one command."
+description = "Set up a Tao masternode by running one command."
 readme = "README.md"
 license = "GPL-3.0+"
-homepage = "https://tomochain.com"
-repository = "https://github.com/tomochain/create-tomochain-masternode"
-# documentation = "https://docs.tomochain.com/"
-keywords = ["tomochain", "blockchain", "masternode", "node"]
-authors = ["etienne-napoleone <etienne@tomochain.com>"]
+homepage = "https://tao.network"
+repository = "https://github.com/Tao-Network/create-tao-masternode"
+# documentation = "https://docs.tao.network/"
+keywords = ["tao", "blockchain", "masternode", "node"]
+authors = ["bryce-weiner <bryce@tao.network>"]
 
 [tool.poetry.dependencies]
 python = "^3.5"
@@ -24,7 +24,7 @@ coveralls = "^1.5"
 pyinstaller = "^3.4"
 
 [tool.poetry.scripts]
-create-tomochain-masternode = "create_tomochain_masternode.main:entrypoint"
+create-tao-masternode = "create_tao_masternode.main:entrypoint"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
