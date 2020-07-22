@@ -3,6 +3,7 @@ Set up a Tao masternode by running one command.
 
 For guides and user documentation, please check the [official documentation](https://docs.tao.network/masternode/create-tao-masternode).
 
+
 ## Development
 
 Install poetry.
